@@ -55,7 +55,7 @@ public class Common extends HttpServlet {
 			returnHTML.println("<h2>Welcome from Post! Greetings," + "this is you servlet answering.</h2></body></html>");		
 		} else if (postType.equals("json")){
 			response.setContentType("application/json");
-			String jsonTest="[{\"Id\":\"103\",\"number\":\"790319\"},{\"Id\":\"104\",\"number\":\"830426\"}]";
+			String jsonTest="[{\"Id\":\"101\",\"number\":\"790319\"},{\"Id\":\"102\",\"number\":\"830426\"}]";
 			returnHTML.println(jsonTest);
 		}
 		returnHTML.close();
